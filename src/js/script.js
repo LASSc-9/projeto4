@@ -11,7 +11,7 @@ let tempo = 3000
 
 // criando função slideshow
 function slideShow() {
-    document.getElementById('image').src=imegens[i];
+    document.getElementById('image').src=imagens[i];
     i++;
     if(i == imagens.length){
         i = 0;

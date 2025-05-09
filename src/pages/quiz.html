@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/estilo.css" />
-    <title>Quiz</title>
-  </head>
-  <body>
-    <header>
-      <h1 id="logo">Projeto</h1>
-      <nav>
-        <ul>
-          <li><a href="../../index.html">Home</a></li>
-          <li><a href="./src/pages/sobre.html">Sobre</a></li>
-          <li><a href="./src/pages/quiz.html">Quiz</a></li>
-          <li><a href="./src/pages/contato.html">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <h1>Quiz</h1>
-    <footer>
-      <h5>&copy; 2025 - Todos os direitos reservados Lucas de Almeida</h5>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/estilo.css" />
+  <title>Quiz</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="logo">Projeto</h1>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="./src/pages/sobre.html">Sobre</a></li>
+        <li><a href="./src/pages/quiz.html">Quiz</a></li>
+        <li><a href="./src/pages/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="container-quiz">
+    <div class="quiz">
+      <h1>Aprenda programação</h1>
+      <section id="container-perguntas">
+        <h2 id="pergunta"></h2>
+        <div id="container-respostas">
+          <input type="text" placeholder="Digite Sua resposta" id="resposta">
+        </div>
+        <button id="proximo">Proxima Pergunta</button>
+        <section id="container-resultado" class="hidden">
+          <h2>Resultado do Quiz</h2>
+          <ul id="lista-resultado"></ul>
+          <button id="inicio-btn"> Reiniciar</button>
+        </section>
+      </section>
+    </div>
+
+  </main>
+
+
+  <footer>
+    <h5>&copy; 2025 - Todos os direitos reservados Lucas de Almeida</h5>
+  </footer>
+</body>
+
 </html>
